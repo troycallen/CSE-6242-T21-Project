@@ -1,0 +1,90 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding-top: 10px; */
+    /* justify-content: center; */
+}
+
+.hFormContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.hFormContainer label {
+    padding: 10px 0px 10px 10px;
+}
+
+label#date {
+    padding-right: 75px;
+}
+
+label#time {
+    padding-right: 70px;
+}
+
+label#timezone {
+    padding-right: 89px;
+    
+}
+
+select#timezone {
+    /* padding: 10px; */
+    width: 205px;
+}
+
+label#temperature {
+    padding-right: 67px;
+}
+
+label#weather {
+    padding-right: 100px;
+}
+
+input#timeOfDay {
+    /* padding-right: 70px; */
+    padding: 10px;
+    width: 180px;
+}
+
+input#temperature {
+    padding: 10px;
+    width: 180px;
+}
+
+select#weather {
+    padding: 10px;
+    width: 205px;
+}
+
+.vFormContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+#roadLabel {
+    padding: 10px 10px 0px 10px;
+}
+
+.checkboxContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkboxColumn {
+    padding: 10px;
+}
+
+.checkboxColumn label {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.submit-btn {
+    align-self: center;
+}
