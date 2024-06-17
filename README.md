@@ -7,10 +7,14 @@ Description
 This package contains the code needed to locally run our project’s website. This includes the frontend UI, the backend model-prediction and publishing code, and saved models, data, and old code that was developed in the process of this website’s creation.
 There are only two folders in this package. “frontend_experiment” contains our code for deploying the website to a localhost and contains the details of the frontend implementations. “Model Development” contains relic code on past experiments with various types of ML models on our data.
 As for individual files that are required to run the website, we have the following:
+
 • backend.py: the Flask endpoint code that receives get/put calls from the frontend, preprocesses the retrieved datapoint, feeds it into our ML models, and publishes the model output to the frontend. This file must be running in order for the website to properly receive predictions to the user’s input.
 The following are pickle files that saved models and other information for backend.py to use.
+
 • Regression_Model.pkl: the saved model used by backend.py to predict the accident severity scores.
+
 • xgboost_model.pkl: the saved model used by backend.py to predict the likelihood of each severity score category.
+
 • One-Hot-Encoded_features_and_Ordering.pkl: this saved pickle file contains the list of timezone categories, weather condition categories, and ordering of features for data. This aids backend.py with preprocessing a datapoint it receives from the frontend, as it ensures that all one-hot-encoded features are present, not just the ones found in the datapoint.
 
 
