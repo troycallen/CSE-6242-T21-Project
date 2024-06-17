@@ -3,6 +3,7 @@
 Creating a web application to provide users with information related to accident severity and likelihood and how they are affected by weather conditions, road features, time of day, and more.
 
 Description
+
 This package contains the code needed to locally run our project’s website. This includes the frontend UI, the backend model-prediction and publishing code, and saved models, data, and old code that was developed in the process of this website’s creation.
 There are only two folders in this package. “frontend_experiment” contains our code for deploying the website to a localhost and contains the details of the frontend implementations. “Model Development” contains relic code on past experiments with various types of ML models on our data.
 As for individual files that are required to run the website, we have the following:
@@ -14,6 +15,7 @@ The following are pickle files that saved models and other information for backe
 
 
 Installation
+
 1. Open the CSE6242A_Team21-main folder in your preferred IDE. IDE must support HTML, CSS, Javascript, and Python. So we recommend using Visual Studio Code. I will call this VSCode window as Window 1.
 
 2. Open the folder frontend_experiment in a second window of Visual Studio Code. This is for ease of use. I will call this Window 2.
@@ -29,6 +31,7 @@ Installation
 
 
 Execution
+
 Once all the installation steps have been complete:
 
 1. Input a route by clicking on the Google Map once for a starting location. Click again on an ending location of your choice. The Google Map will create a route for you. 
